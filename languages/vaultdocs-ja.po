@@ -1,0 +1,421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VaultDocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 10:27+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: yu-ji <yujiod+vaultdocs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../backup.php:3
+msgid "Vault Docs &raquo; Backup"
+msgstr "Vault Docs &raquo; バックアップ"
+
+#: ../backup.php:9
+msgid "Entry list not backed up"
+msgstr "バックアップされた記事一覧"
+
+#: ../backup.php:17
+#: ../restore.php:19
+#: ../restore.php:42
+msgid "ID"
+msgstr "ID"
+
+#: ../backup.php:18
+#: ../restore.php:20
+#: ../restore.php:43
+msgid "Title"
+msgstr "タイトル"
+
+#: ../backup.php:25
+#: ../restore.php:27
+#: ../restore.php:50
+msgid "(No title)"
+msgstr "(タイトル無し)"
+
+#: ../backup.php:30
+msgid "Start backup &raquo;"
+msgstr "バックアップを開始 &raquo;"
+
+#: ../backup.php:45
+msgid "The backup of all the entries has already been completed."
+msgstr "すべての記事のバックアップはすでに完了しています。"
+
+#: ../backup.php:51
+msgid "The backup began. Please wait for a while without shutting this window..."
+msgstr "バックアップを開始しました。このウィンドウを閉じずにしばらくお待ちください。"
+
+#: ../backup.php:69
+msgid "All backups of the selected entry were completed!"
+msgstr "選択されたエントリすべてのバックアップが完了しました。"
+
+#: ../backup.php:76
+#, php-format
+msgid "Backup %s is done."
+msgstr "%s のバックアップが完了しました。"
+
+#: ../options.php:4
+msgid "Updated options."
+msgstr "変更を保存しました。"
+
+#: ../options.php:7
+msgid "Authorization complete."
+msgstr "Google アカウント認証が完了しました。"
+
+#: ../options.php:10
+msgid "Authorization failure."
+msgstr "Google アカウント認証に失敗しました。"
+
+#: ../options.php:13
+msgid "Revoke authorization complete."
+msgstr "Google アカウント認証の解除が完了しました。"
+
+#: ../options.php:22
+msgid "Authorization Google account"
+msgstr "Google アカウント認証"
+
+#: ../options.php:26
+msgid "You need authorization on Google account."
+msgstr "Google アカウントの認証が必要です。"
+
+#: ../options.php:29
+msgid "Domain(optional):"
+msgstr "ドメイン(オプション):"
+
+#: ../options.php:31
+msgid "If you want to use account of Google Apps."
+msgstr "Google Apps のアカウントを利用する場合に入力してください。"
+
+#: ../options.php:34
+msgid "Authorization on Google Account &raquo;"
+msgstr "Google アカウントの認証 &raquo;"
+
+#: ../options.php:38
+#, php-format
+msgid "Authorized and backup your entries to %s."
+msgstr "認証済みです。 %s へのバックアップを行います。"
+
+#: ../options.php:41
+msgid "Revoke authorization on Google Account &raquo;"
+msgstr "Google アカウントの認証を解除 &raquo;"
+
+#: ../options.php:45
+msgid "Google Docs"
+msgstr "Google Docs"
+
+#: ../options.php:49
+msgid "Backup folder"
+msgstr "バックアップ先フォルダー"
+
+#: ../options.php:56
+msgid "Update options &raquo;"
+msgstr "変更を保存 &raquo;"
+
+#: ../restore.php:3
+msgid "Vault Docs &raquo; Restore"
+msgstr "Vault Docs &raquo; 復元"
+
+#: ../restore.php:13
+msgid "Page list backed up"
+msgstr "バックアップされたページ一覧"
+
+#: ../restore.php:36
+msgid "Post list backed up"
+msgstr "バックアップされた投稿一覧"
+
+#: ../restore.php:58
+msgid "The status set to restored entry:"
+msgstr "復元した記事へ設定するステータス:"
+
+#: ../restore.php:60
+msgid "Publish"
+msgstr "公開"
+
+#: ../restore.php:61
+msgid "Draft"
+msgstr "下書き"
+
+#: ../restore.php:62
+msgid "Pending"
+msgstr "レビュー待ち"
+
+#: ../restore.php:63
+msgid "Private"
+msgstr "非公開"
+
+#: ../restore.php:68
+msgid "Start restore &raquo;"
+msgstr "復元を開始 &raquo;"
+
+#: ../restore.php:93
+msgid "There is no entry backed up."
+msgstr "バックアップされた記事はありません。"
+
+#: ../restore.php:99
+msgid "The restore began. Please wait for a while without shutting this window..."
+msgstr "復元を開始しました。このウィンドウを閉じずにしばらくお待ちください。"
+
+#: ../restore.php:117
+msgid "The restoration of all the selected entries was completed."
+msgstr "選択された記事すべての復元が完了しました。"
+
+#: ../restore.php:124
+#, php-format
+msgid "Restore %s to %s is done."
+msgstr "%s の %s への復元が完了しました。"
+
+#: ../vaultdocs.php:80
+#, php-format
+msgid "Vault Docs is not authorized on Google account, please check your <a href=\"%s\">Vault Docs options</a>"
+msgstr "Vault Docs は Google アカウントの認証を完了していません。<a href=\"%s\">Vault Docs オプション</a> を確認し、認証を完了してください。"
+
+#: ../vaultdocs.php:93
+msgid "allow_url_fopen is not enabled on PHP. Vault Docs could not be activated."
+msgstr "PHP にて allow_url_fopen の設定が無効化されているため、VaultDocs を有効にすることができませんでした。"
+
+#: ../vaultdocs.php:104
+msgid "Cannot connect to docs.google.com. Vault Docs could not be activated."
+msgstr "docs.google.com へ接続することができないため、VaultDocs を有効にすることができませんでした。"
+
+#: ../vaultdocs.php:109
+msgid "Disabled OpenSSL on PHP. Vault Docs could not be activated."
+msgstr "PHP にて OpenSSL が無効化されているため、VaultDocs を有効にすることができませんでした。"
+
+#: ../vaultdocs.php:114
+msgid "Disabled SimpleXMLElement on PHP. Vault Docs could not be activated."
+msgstr "PHP にて SimpleXMLElement が無効化されているため、VaultDocs を有効にすることができませんでした。"
+
+#: ../vaultdocs.php:495
+#: ../vaultdocs.php:496
+msgid "Vault Docs"
+msgstr "Vault Docs"
+
+#: ../vaultdocs.php:496
+msgid "Options"
+msgstr "設定"
+
+#: ../vaultdocs.php:497
+msgid "Backup &lsaquo; Vault Docs"
+msgstr "バックアップ &lsaquo; VaultDocs"
+
+#: ../vaultdocs.php:497
+msgid "Backup"
+msgstr "バックアップ"
+
+#: ../vaultdocs.php:498
+msgid "Restore &lsaquo; Vault Docs"
+msgstr "復元 &lsaquo; VaultDocs"
+
+#: ../vaultdocs.php:498
+msgid "Restore"
+msgstr "復元"
+
+#: ../vaultdocs.php:517
+msgid "E-Mail field is required."
+msgstr "メールアドレスは必須項目です。"
+
+#: ../vaultdocs.php:520
+msgid "Password field is required."
+msgstr "パスワードは必須項目です。"
+
+#: ../vaultdocs.php:523
+msgid "Folder field is required."
+msgstr "フォルダーは必須項目です。"
+
+#: ../vaultdocs.php:528
+msgid "Cannot logged in Google, please check your E-Mail and password."
+msgstr "Google アカウントでログインできません。正しいメールアドレスもしくはパスワードを確認してください。"
+
+#: ../vaultdocs.php:792
+msgid "Posts"
+msgstr "投稿"
+
+#: ../vaultdocs.php:805
+msgid "Pages"
+msgstr "ページ"
+
+#~ msgid "Authorized."
+#~ msgstr "認証済みです。"
+#~ msgid "Not backup posts and pages list"
+#~ msgstr "バックアップされていない投稿もしくはページ一覧"
+#~ msgid "Already done backup all."
+#~ msgstr "すべてのバックアップはすでに完了しています。"
+#~ msgid "Started backup, please do not close this window."
+#~ msgstr ""
+#~ "バックアップを開始しました。このウィンドウを閉じずに、しばらくお待ちくださ"
+#~ "い。"
+#~ msgid "Done backup selected posts and pages!"
+#~ msgstr "選択された投稿もしくはページのバックアップが完了しました!"
+#~ msgid "Backup posts list"
+#~ msgstr "バックアップされた投稿一覧"
+#~ msgid "Backup pages list"
+#~ msgstr "バックアップされたページ一覧"
+#~ msgid "Backup is empty."
+#~ msgstr "バックアップされた投稿もしくはページは一件もありません。"
+#~ msgid "Started restore, please do not close this window."
+#~ msgstr ""
+#~ "復元を開始しました。このウィンドウを閉じずに、しばらくお待ちください。"
+#~ msgid "Done restore selected backup!"
+#~ msgstr "選択されたすべてのバックアップは復元されました!"
+#~ msgid "Google account informations"
+#~ msgstr "Google アカウント情報"
+#~ msgid "E-Mail"
+#~ msgstr "メールアドレス"
+#~ msgid "Password"
+#~ msgstr "パスワード"
+#~ msgid ""
+#~ "Vault Docs is not authorized on GoogleDocs, please check your <a href=\"%s"
+#~ "\">Vault Docs options</a>"
+#~ msgstr ""
+#~ "Vault Docs は Google Docs での認証を完了していません。<a href=\"%s"
+#~ "\">Vault Docs オプション</a> を確認し、認証を完了してください。"
+#~ msgid ""
+#~ "Cannot get Flickr user informations.<br />Please authorization "
+#~ "\"Wordpress Media Flickr\" on flickr."
+#~ msgstr ""
+#~ "Flickrユーザー情報が取得できませんでした。<br />Flickrで「Wordpress Media "
+#~ "Flickr」に対する認証を行ってください。"
+#~ msgid "Flickr user informations are cleared."
+#~ msgstr "Flickr ユーザー情報の消去が完了しました。"
+#~ msgid ""
+#~ "Your PHP unsupported curl, and allow_url_fopen is disabled.<br />This is "
+#~ "cause of cannot Flickr authentication."
+#~ msgstr ""
+#~ "PHP が curl をサポートしていないか、allow_url_fopen がオフになっています。"
+#~ "<br />Flickr で認証を行えません。"
+#~ msgid "Media Flickr"
+#~ msgstr "Media Flickr"
+#~ msgid "Are you sure you want to clear Flickr informations?"
+#~ msgstr "Flickrのユーザー情報を消去します。よろしいですか？"
+#~ msgid "Flickr Username"
+#~ msgstr "Flickrユーザー名"
+#~ msgid "Flickr User ID"
+#~ msgstr "FlickrユーザーID"
+#~ msgid "Clear user informations &raquo;"
+#~ msgstr "ユーザー情報の消去 &raquo;"
+#~ msgid "Please authorization according to the following instruction."
+#~ msgstr "以下の流れに従って、認証を行ってください。"
+#~ msgid "Step1"
+#~ msgstr "ステップ1"
+#~ msgid "Flickr authenticate"
+#~ msgstr "Flickr認証を開始"
+#~ msgid "Step2"
+#~ msgstr "ステップ2"
+#~ msgid "Finish authenticate"
+#~ msgstr "認証を完了"
+#~ msgid "Media Flickr Options"
+#~ msgstr "Media Flickr の設定"
+#~ msgid "Link of photo"
+#~ msgstr "写真のリンク先"
+#~ msgid "The photo page of Flickr"
+#~ msgstr "Flickrの写真ページ"
+#~ msgid "The photo directly"
+#~ msgstr "写真へ直接リンク"
+#~ msgid "The \"rel\" attribute of link tag"
+#~ msgstr "リンクタグの \"rel\" 属性"
+#~ msgid "(if you want to use the Lightbox, set \"lightbox\")"
+#~ msgstr "(Lightbox を使う場合は、\"lightbox\" を指定してください)"
+#~ msgid "The \"class\" attribute of link tag"
+#~ msgstr "リンクタグの \"class\" 属性"
+#~ msgid "(if you want to use the Lightview, set \"lightview\")"
+#~ msgstr "(Lightview を使う場合は、\"lightview\" を指定してください)"
+#~ msgid "Add Flickr photo"
+#~ msgstr "Flickrの写真を追加"
+#~ msgid "Flickr photo"
+#~ msgstr "Flickrの写真"
+#~ msgid "Search:"
+#~ msgstr "検索"
+#~ msgid "Your Photos"
+#~ msgstr "自分の写真"
+#~ msgid "Your Sets"
+#~ msgstr "セットの写真"
+#~ msgid "Everyone's Photos"
+#~ msgstr "すべての写真"
+#~ msgid "Search photo"
+#~ msgstr "写真を検索"
+#~ msgid "Flickr photos"
+#~ msgstr "Flickrの写真"
+#~ msgid "&laquo; Prev page"
+#~ msgstr "&laquo; 前のページ"
+#~ msgid "Next page &raquo;"
+#~ msgstr "次のページ &raquo;"
+#~ msgid "Select size of photo"
+#~ msgstr "写真の大きさを選んでください"
+#~ msgid "Square"
+#~ msgstr "スクエア"
+#~ msgid "Thumbnail"
+#~ msgstr "サムネイル"
+#~ msgid "Small"
+#~ msgstr "スモール"
+#~ msgid "Medium"
+#~ msgstr "ミディアム"
+#~ msgid "Original"
+#~ msgstr "オリジナル"
+#~ msgid "(not permitted)"
+#~ msgstr "(許可されていません)"
+#~ msgid "Select alignment of photo"
+#~ msgstr "写真の挿入位置を選んでください"
+#~ msgid "Default"
+#~ msgstr "指定無し"
+#~ msgid "Left"
+#~ msgstr "左"
+#~ msgid "Center"
+#~ msgstr "中央"
+#~ msgid "Right"
+#~ msgstr "右"
+#~ msgid "Continue to insert other photo."
+#~ msgstr "続けて他の写真を挿入する"
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+#~ msgid "Insert"
+#~ msgstr "挿入"
+#~ msgid "Not found photo"
+#~ msgstr "写真が見つかりませんでした。"
+#~ msgid "Too many tags in ALL query"
+#~ msgstr "指定されたタグの数が多すぎます。"
+#~ msgid "Unknown user"
+#~ msgstr "指定されたユーザーは見つかりません。"
+#~ msgid "Parameterless searches have been disabled"
+#~ msgstr "必要な項目が指定されていません。"
+#~ msgid "You don't have permission to view this pool"
+#~ msgstr "表示する権限がありません。"
+#~ msgid "Sorry, the Flickr search API is not currently available."
+#~ msgstr "Flickr検索APIは現在利用できません。"
+#~ msgid "No valid machine tags"
+#~ msgstr "No valid machine tags"
+#~ msgid "Exceeded maximum allowable machine tags"
+#~ msgstr "Exceeded maximum allowable machine tags"
+#~ msgid "Invalid API Key"
+#~ msgstr "APIキーが正しくありません。"
+#~ msgid "Service currently unavailable"
+#~ msgstr "Flickrのサービスは現在利用できません。"
+#~ msgid "Unknown error"
+#~ msgstr "原因不明のエラーが発生しました。"
+#~ msgid "(%1$s / %2$s page(s), %3$s photo(s))"
+#~ msgstr "（%1$s / %2$s ページ, %3$s 枚の写真）"
+
+#, fuzzy
+#~ msgid "This photo owner has not permitted anyone to download."
+#~ msgstr "この写真の所有者は誰でもダウンロードできることを許可していません。"
+#~ msgid "User not found"
+#~ msgstr "指定されたユーザーは見つかりません。"
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+#~ msgid "Authenticate"
+#~ msgstr "認証を開始"
+#~ msgid "User not found."
+#~ msgstr "指定されたユーザーは見つかりません。"
+#~ msgid "Flickr API key"
+#~ msgstr "Flickr APIキー"
+#~ msgid "API key is invalid."
+#~ msgstr "APIキーが正しくありません。"
+
