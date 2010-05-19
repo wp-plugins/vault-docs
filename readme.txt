@@ -42,7 +42,7 @@ I plan to provide it in by the upcoming version.
 == Screenshots ==
 
 1. Options
-1. Backup for manualy.(When the entry is saved, the backup is usually done by the automatic operation)
+1. Backup for manually.(When the entry is saved, the backup is usually done by the automatic operation)
 1. Restore
 
 == Changelog ==
