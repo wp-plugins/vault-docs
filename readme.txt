@@ -6,7 +6,7 @@ Plugin URI: http://factage.com/yu-ji/tag/vault-docs
 Tags: admin, backup, pages, posts
 Requires at least: 2.9
 Tested up to: 2.9.2
-Stable tag: 0.9.0
+Stable tag: 0.9.0-2
 
 == Description ==
 
