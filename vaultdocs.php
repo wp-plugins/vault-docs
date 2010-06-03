@@ -4,12 +4,12 @@ Plugin Name: Vault Docs
 Plugin URI: http://factage.com/yu-ji/tag/vaultdocs
 Description: This plugin provides automated backup posts and pages to Google Docs.
 Author: yu-ji
-Version: 0.9.0
+Version: 0.9.1
 Author URI: http://factage.com/yu-ji/
 */
 
 class VaultDocs {
-    private $debug = false;
+    private $debug = true;
     private $auth = null;
     private $options = array();
     private $httpResponseHeader = null;
@@ -224,6 +224,8 @@ class VaultDocs {
             fputs($fp, join($req, "\r\n")."\r\n\r\n");
             fclose($fp);
             return true;
+        }else{
+            $this->log('Could not connect to '.$url['host'].':'.$url['port'].' for background connection.');
         }
         return false;
     }
@@ -504,29 +506,14 @@ PUT;
      */
     public function showOptions() {
         if(!empty($_POST)) {
-            if(isset($_POST['password']) && $_POST['password'] === '') {
-                unset($_POST['password']);
-            }
             $defaultKeys = array_keys(self::$defaultOptions);
             foreach($_POST as $key => $value) {
                 if(in_array($key, $defaultKeys)) {
                     $this->options[$key] = $value;
                 }
             }
-            if(empty($_POST['email'])) {
-                $errros[] = __('E-Mail field is required.', 'vaultdocs');
-            }
-            if(empty($_POST['password']) && empty($options['password'])) {
-                $errros[] = __('Password field is required.', 'vaultdocs');
-            }
             if(empty($_POST['folder'])) {
-                $errros[] = __('Folder field is required.', 'vaultdocs');
-            }
-            if(empty($errors)) {
-                $result = $this->checkAuthSub();
-                if(!$result) {
-                    $errors[] = __('Cannot logged in Google, please check your E-Mail and password.', 'vaultdocs');
-                }
+                $errors[] = __('Folder field is required.', 'vaultdocs');
             }
             if(empty($errors)) {
                 $this->updateOptions();

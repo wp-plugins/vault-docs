@@ -10,7 +10,7 @@
 
 <?php if(!empty($posts)) { ?>
 
-<h3><?php _e('Page list backed up', 'vaultdocs') ?></h3>
+<h3><?php _e('Post list backed up', 'vaultdocs') ?></h3>
 
 <table id="posts" class="widefat">
     <thead>
@@ -33,7 +33,7 @@
 
 <?php if(!empty($pages)) { ?>
 
-<h3><?php _e('Post list backed up', 'vaultdocs') ?></h3>
+<h3><?php _e('Page list backed up', 'vaultdocs') ?></h3>
 
 <table id="pages" class="widefat">
     <thead>
