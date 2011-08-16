@@ -5,8 +5,8 @@ Author URI: http://factage.com/yu-ji/
 Plugin URI: http://factage.com/yu-ji/tag/vault-docs
 Tags: admin, backup, pages, posts
 Requires at least: 2.9
-Tested up to: 2.9.2
-Stable tag: 0.9.0-2
+Tested up to: 3.2
+Stable tag: 0.9.2
 
 == Description ==
 
@@ -46,6 +46,12 @@ I plan to provide it in by the upcoming version.
 1. Restore
 
 == Changelog ==
+
+= Version 0.9.2 =
+* Fixed cannot authentication bug on AuthSub.
+
+= Version 0.9.1 =
+* Fixed minor bugs.
 
 = Version 0.9.0 =
 * First beta release.

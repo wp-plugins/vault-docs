@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Vault Docs
-Plugin URI: http://factage.com/yu-ji/tag/vaultdocs
+Plugin URI: http://factage.com/yu-ji/tag/vault-docs
 Description: This plugin provides automated backup posts and pages to Google Docs.
 Author: yu-ji
-Version: 0.9.1
+Version: 0.9.2
 Author URI: http://factage.com/yu-ji/
 */
 
@@ -526,8 +526,10 @@ PUT;
      *
      */
     public function authSubRequest() {
+        $url = admin_url('admin.php?action=vaultdocs_authSubResponse');
+        $url = preg_replace('/^(https?:\/\/)(\w)/e', "'\\1'.strtoupper('\\2')", $url);
         $params = array(
-            'next' => admin_url('admin.php?action=vaultdocs_authSubResponse'),
+            'next' => $url,
             'scope' => self::$googleAuthSubScope,
             'session' => 1,
         );
@@ -546,7 +548,7 @@ PUT;
         if(!empty($_GET['token'])) {
             // convert to session token
             $headers = array(
-                'Authorization: AuthSub token="'.urlencode($_GET['token']).'"',
+                'Authorization: AuthSub token="'.$_GET['token'].'"',
             );
             $context = array(
                 'http' => array(
